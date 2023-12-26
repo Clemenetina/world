@@ -3,11 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-div a{
-    border: 1px solid;
-    
-    
+body{
+    background-color: white;
 }
-.ttia[
-    
-]
+.nav{
+    margin: 10px;
+    display: flex;           
+    justify-content: space-between;       
+    border: 1px solid;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+}
+.nav:hover{
+    background-color: yellow;
+    color: black;
+}
+div h1{
+    font-size: 20px;
+}
+.star:hover{
+    background-color: yellow;
+    color: black;
+    border: 1px solid;
+}
+.star{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
