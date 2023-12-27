@@ -1,31 +1,50 @@
-*{
+body{
+    font-weight: normal;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    background-color: bisque;
 }
-body{
-    background-color: white;
-}
-.nav{
+#nav{
     margin: 10px;
+    display: inline;
+}
+#nav:hover{
     display: flex;           
-    justify-content: space-between;       
-    border: 1px solid;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    justify-content: space-between; 
 }
-.nav:hover{
+.fathia{
+    display: block;
     background-color: yellow;
-    color: black;
-}
-div h1{
-    font-size: 20px;
-}
-.star:hover{
-    background-color: yellow;
-    color: black;
-    border: 1px solid;
 }
 .star{
     text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
+    padding: 9px 18px;
+    text-align: center;
+    margin: 50px;
+}
+.star:hover{
+    color: black;  
+    background-color: yellow;
+}
+#mmm{
+    text-align: center;
+    padding: 9px 18px;
+    text-align: center;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    align-items: center;
+    width: 10px;
+}
+#lov:hover{
+    background-color: yellow;
 }

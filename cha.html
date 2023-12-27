@@ -7,40 +7,90 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="nav""> 
-            <a class="ttia" href="" contact">01. Contact</a>
-            <a href="02. emergency contact">02.Emergency Contact</a>
-            <a href="03. workshop information">03. Workshop Information</a>
+    <div id="nav"> 
+            <a class="ttia" href="#contact">01. Contact</a>
+            <a  class="mot" href="#emergency">02.Emergency Contact</a>
+            <a href="#work">03. Workshop Information</a>
+    </div>
+    <div class="image">
+        <img src="download.jpeg" alt="Logo Here">
     </div>
     <div class="ttia">
-        <h1 style="text-align: center;"">
+        <a name="contact"></a>
+        <h1 style="text-align: center;"></h1>
             <b>Youth Leadership Summit <br>Registration From</b>
         </h1>
     </div>
-        <div class="fathia">
-            <form class="tt">  
-                Full Name <br>
-                <label for="firstame"></label>
-                <input style="background-color: yellow;" type="text" id="fname" name="firstname" placeholder="First">
+        <div>
+            <form">  
+                <label for="firstame">Full Name <br></label>
+                <input class="fathia" style="background-color: yellow;" type="text" id="fname" name="firstname"  placeholder="First"><br>
                 <label for="lastname"></label>
-                <input style="background-color: yellow;" type="text" id="lastname" name="lastame" placeholder="Last"><br><br>
+                <input class="fathia" style="background-color: yellow;" type="text" id="lastname" name="lastame" placeholder="Last"><br><br>
                 <label  for="birthday">Date of Birth</label><br>
-                <input  style="background-color: yellow; display: inline-block;" type="date"  id="birthday" name="birthday"><br><br>
+                <input class="fathia"  style="background-color: yellow; display: inline-block;" type="date"  id="birthday" name="birthday"><br><br>
                 <label for="email">Email</label><br>
-                <input  style="background-color: yellow; display: block;" type="email id="email" name="email"><br><br>
+                <input  class="fathia" style="background-color: yellow; display: block;" type="email id="email" name="email"><br><br>
                 <label for="phone">Phone Number</label><br>
-                <input  style="background-color: yellow; display: block;" type="number" id="phone" name="phone" placeholder="###&nbsp###&nbsp###"><br><br>
+                <input  class="fathia" style="background-color: yellow; display: block;" type="number" id="phone" name="phone" placeholder="###&nbsp###&nbsp###"><br><br>
                 <label for="school">School/College/Institution</label><br>
-                <input  style="background-color: yellow; display: block;" tabindex="text" id="school" name="school"><br><br>
+                <input  class="fathia" style="background-color: yellow; display: block;" tabindex="text" id="school" name="school"><br><br>
                 <label for="grade">Grade/Year</label><br>
-                <input style="background-color: yellow; display: block;" type="number" id="grade" name="grade"><br><br>
+                <input class="fathia" style="background-color: yellowblock;" type="number" id="grade" name="grade"><br><br>
             </form>
         </div>
         <div class="star">
             <a href="#" class="next">Next &raquo;</a>
-        </div>
-       
-        
+        </div> 
     </div>
+    <div class="container">
+            <p> <a name="emergency"><b>Emergency Contact</b></a></p>
+            <div><form>
+                <label for="fname">Name</label><br>
+                <input class="fathia" type="text" id="fname" name="firstame" placeholder="First"><br>
+                <input class="fathia" type="text" id="lname" name="lastame" placeholder="Last"><br>
+                <label for="contact">Phone Number</label><br>
+                <input class="fathia" type="number" id="contact" name="contact" placeholder="###&nbsp;&nbsp;###&nbsp;&nbsp;###"><br>
+                <label for="status">Relationship</label><br>
+                <input class="fathia" type="text" id="status" name="relationship" >
+            </form>
+        </div>
+        <div id="mmm">
+            <p> <a href="#" class="previous">&laquo; Previous</a><br>
+                <a href="#" class="next">Next &raquo;</a></p>
+        </div>     
+    </div>
+    <div class="container">
+        <div>
+            <p> <a name="work"><b>Registration Type</b></a> </p><br> 
+            <form>
+                <input type="radio" id="indi" name="individual" value="individual participant">
+                <label for="indi">Individual Participant</label><br><br>
+                <input type="radio" id="swg" name="group" value="group registration">
+                <label for="swg">School/Institution Group</label><br><br><br>
+            </form>
+        </div>
+        <div>
+            <p><b>Workshop Preferences</b></p><br>
+            <form>
+                <input  type="checkbox">Leadership Development<br><br>
+                <input type="checkbox">Effective Communication<br><br>
+                <input type="checkbox">Problem Solving and Decision Making<br><br>
+                <input type="checkbox">Time Management and Goal Setting<br><br>
+                <input type="checkbox">Social Impact and Community Engagement<br><br><br>
+            </form>
+        </div>
+        <div>
+            <form> <b>Expectations from the Summit</b><br>
+                <textarea style="border-radius: 10px; background-color: bisque;" rows="5" cols="20px"></textarea><br>
+                <input id="lov" style="background-color: bisque; text-align: center;" type="submit" value="Submit Form">
+            </form>
+            <div class="star"> 
+                <p> <a href="#" class="previous">&laquo; Previous</a>
+            </div>
+          
+        </div>
+    </div>
+
 </body>
 </html>
